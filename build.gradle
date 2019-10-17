@@ -45,3 +45,9 @@ dependencies {
     compile name: 'Standalone-all'
     implementation 'com.github.Sauilitired:Jenkins4J:3.0-SNAPSHOT'
 }
+
+clean.doFirst {
+    delete "../target"
+}
+
+jar.destinationDirectory = file('./target')
