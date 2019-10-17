@@ -13,8 +13,9 @@ license {
     exclude("*.json")
 }
 
-group 'com.intellectualsites'
-version '1.0-SNAPSHOT'
+group = "com.intellectualsites"
+version = "1.0-SNAPSHOT"
+
 //noinspection GroovyUnusedAssignment
 mainClassName = 'com.intellectualsites.download.DownloadService'
 
