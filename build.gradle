@@ -1,18 +1,18 @@
 plugins {
     id "io.freefair.lombok" version "3.1.4"
-//    id "com.github.hierynomus.license" version "0.15.0"
+    id "com.github.hierynomus.license" version "0.15.0"
     id 'com.github.johnrengelman.shadow' version '5.0.0'
     id 'java'
     id 'application'
 }
 
-/*license {
+license {
     mapping {
         java = 'DOUBLESLASH_STYLE'
     }
     exclude("*.json")
 }
-*/
+
 group = "com.intellectualsites"
 version = "1.0-SNAPSHOT"
 
